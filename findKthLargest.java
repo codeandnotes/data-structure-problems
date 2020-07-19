@@ -15,7 +15,7 @@ public int findKthLargest(int[] nums, int k) {
           else {low = pivotIdx + 1;}  
       }
 
-      // at this point it means the whole array is sorted in descending order
+      // only at this point when there is one element (nothing is found in the while loop)
       return nums[targetIdx];
 
   }
